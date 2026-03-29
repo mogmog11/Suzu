@@ -1,0 +1,17 @@
+{
+  "preferences": {
+    "coworkScheduledTasksEnabled": true,
+    "sidebarMode": "task",
+    "coworkWebSearchEnabled": true
+  },
+  "mcpServers": {
+    "example-custom-tool": {
+      "_comment": "カスタムMCPサーバーのサンプル設定。実際のサーバーに合わせて書き換えてください。",
+      "command": "node",
+      "args": ["/path/to/your-mcp-server/dist/index.js"],
+      "env": {
+        "API_KEY": "your_api_key_here"
+      }
+    }
+  }
+}
