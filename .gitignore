@@ -1,0 +1,26 @@
+# OS / Editor
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+
+# 機密情報・個人情報
+context/my-profile.md
+context/memory/people/
+2_areas/clients/
+*.env
+*.secret
+
+# 日次生成ファイル（大量になるため除外推奨）
+# 必要に応じてコメントアウトを外す
+# 2_areas/daily-ops/briefings/
+# 2_areas/daily-ops/email-logs/
+# 3_resources/industry/
+
+# Cowork の一時ファイル
+.claude-cowork-tmp/
